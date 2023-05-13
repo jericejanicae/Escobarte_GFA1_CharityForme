@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Eczar', serif;}
+
+body {
+    background-color: pink;
+}
+
+header {
+    background-color:rgb(255, 126, 195);
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 4px 2px 5px rgba(82, 1, 52, 0.341);
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 7px 7px rgb(82, 1, 52, 0.6);
+}
+
+#reasons {
+    background-color: rgb(255, 170, 215);
+    border: 1px solid rgb(191, 30, 116);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(82, 1, 52, 0.5);
+    padding: 20px;
+    width: 60%;
+    margin: 30px auto;
+}
+
+#reasons h1 {
+    text-align: center;
+}
+
+#reasons p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+#reasons hr {
+    border: 1px solid rgb(191, 30, 116, 0.5);
+    margin: 10px 0;
+}
+
+#signupform {
+    background-color: rgb(255, 170, 215);
+    border: 1px solid rgb(191, 30, 116);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(82, 1, 52, 0.5);
+    padding: 20px;
+    width: 60%;
+    margin: 30px auto;
+}
+
+#signupform h2, p {
+    text-align: center;
+    text-shadow: 1px 0px 10px rgb(191, 30, 116,0.3);
+}
+
+form {
+    border: 1px solid rgb(191, 30, 116);
+    border-radius: 5px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form p {
+    text-align: left;
+}
+
+input[type=text]{
+    width: 80%;
+    padding-left: 30px;
+}
+
+input[type=radio] {
+    padding-left: 30px;
+}
+
+.submitreset {
+    text-align: center;
+    margin-top: 15px;
+}
+
+input[type=submit], input[type=reset] {
+	padding: 3px;
+}
